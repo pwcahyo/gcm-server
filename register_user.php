@@ -18,7 +18,7 @@ if (isset($_POST["regId"])) {
     $res = $db->storeUser($gcm_regid);
  
     $registatoin_ids = array($gcm_regid);
-    $message = array("Hello" => "Zelda");
+    $message = array("message"=>$message, "timestamp"=>"20-Jan-2016");
  
     $result = $gcm->send_notification($registatoin_ids, $message);
  
