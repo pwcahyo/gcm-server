@@ -9,10 +9,11 @@ Back End Google Cloud Message Menggunakan PHP
 
 2. File `register_user.php` digunakan untuk menangani register user dengan menerima generate registerID dari API GCM yang kemudian dimasukan kedalam database, nantinya user yang sudah terdaftar kedalam server (pihak ketiga, server gcm ini) dapat digunakan untuk pengiriman pesan broadcast dari server menuju Android Device yang sudah terdaftar
 
-3. apabila semua sudah siap, maka cara pengiriman pesan broadcast bisa melalui file index atau 
-  `localhost/gcm-server`
+3. apabila semua sudah siap, maka cara pengiriman pesan broadcast bisa melalui file index atau `localhost/gcm-server`
 
 4. Aplikasi client android harus selalu dalam keadaan idle
+5. Contoh server ada [disini](http://phpserver-pwcahyo.rhcloud.com/ "server gcm")
+
 ## Android Client
 untuk client android bisa dilihat pada [source kode berikut](https://github.com/pwcahyo/gcm "gcm client")
 
