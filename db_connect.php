@@ -13,8 +13,8 @@ class DB_Connect {
     public function connect() {
         require_once 'config.php';
         
-        $conn = mysql_connect(DB_HOST, DB_USER, DB_PASSWORD,DB_PORT);        
-        mysql_select_db(DB_DATABASE); 
+        $conn = mysql_connect(DB_HOST, DB_USER, DB_PASS, DB_PORT);        
+        mysql_select_db(DB_NAME); 
         
         return $conn;
     }
