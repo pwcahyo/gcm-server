@@ -10,5 +10,5 @@ define("DB_DATABASE", "db_gcm_demo");
 /*
  * Google API Key
  */
-define("GOOGLE_API_KEY", "AIzaSyCRHbanMuiUMJolX96IR6i9gBHGBKuc9Sw");
+define("GOOGLE_API_KEY", "REPLACE API SERVER IN HERE");
 ?>
