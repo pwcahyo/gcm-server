@@ -2,12 +2,12 @@
 /**
  * DB config
  */
-define("DB_HOST", "localhost");
-define("DB_PORT", 9090);
-define("DB_USER", "root");
-define("DB_PASSWORD", "toor");
-define("DB_DATABASE", "db_gcm_demo");
- 
+define('DB_HOST', getenv('OPENSHIFT_MYSQL_DB_HOST'));
+define('DB_PORT', getenv('OPENSHIFT_MYSQL_DB_PORT'));
+define('DB_USER', getenv('OPENSHIFT_MYSQL_DB_USERNAME'));
+define('DB_PASS', getenv('OPENSHIFT_MYSQL_DB_PASSWORD'));
+define('DB_NAME', getenv('OPENSHIFT_APP_NAME'));
+
 /*
  * Google API Key
  */
